@@ -16,7 +16,7 @@
 
         def print_score(std):
             print('%s: %s' % (std['name'], std['score']))
-如果采用面向对象的程序设计思想，我们首选思考的不是程序的执行流程，而是Student这种数据类型应该被视为一个对象，这个对象拥有name和score这两个属性（Property）。如果要打印一个学生的成绩，首先必须创建出这个学生对应的对象，然后，给对象发一个print_score消息，让对象自己把自己的数据打印出来。
+如果采用面向对象的程序设计思想，**我们首选思考的不是程序的执行流程，而是Student这种数据类型应该被视为一个对象，这个对象拥有name和score这两个属性（Property）**。如果要打印一个学生的成绩，首先必须创建出这个学生对应的对象，然后，给对象发一个print_score消息，让对象自己把自己的数据打印出来。
 
         
 
@@ -35,6 +35,6 @@
         lisa.print_score()
 面向对象的设计思想是从自然界中来的，因为在自然界中，类（Class）和实例（Instance）的概念是很自然的。Class是一种抽象概念，比如我们定义的Class——Student，是指学生这个概念，而实例（Instance）则是一个个具体的Student，比如，Bart Simpson和Lisa Simpson是两个具体的Student。
 
-所以，面向对象的设计思想是抽象出Class，根据Class创建Instance。
+所以，**面向对象的设计思想是抽象出Class，根据Class创建Instance。**
 
 面向对象的抽象程度又比函数要高，因为一个Class既包含数据，又包含操作数据的方法。
