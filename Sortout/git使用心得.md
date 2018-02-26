@@ -28,4 +28,4 @@ win文件路径/用户/.ssh/
         git branch    # 查看当前的本地的所有分支
         git checkout -b 目标分支    # 建立新的分支
         git checkout -b 本地分支名称 /origin/远程分支名称   # 将远程分支和本地分支建立连接
-
+        git fretch  # git pull = git fretch + git megar
